@@ -2,6 +2,10 @@ package main
 
 import "fmt"
 
-func main() {
+func PrintStatus() {
 	fmt.Println("OFF")
+}
+
+func main() {
+	PrintStatus()
 }
